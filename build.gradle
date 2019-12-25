@@ -23,6 +23,14 @@ allprojects {
     }
 }
 
+
+ext {
+    buildToolsVersion = "29.0.2"
+    compileSdkVersion = 29
+
+    ktlintVersion = '0.36.0'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
