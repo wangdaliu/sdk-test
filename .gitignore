@@ -39,3 +39,14 @@ tmp/
 
 # vim temp files
 *.swp
+
+
+# Output
+stripe/target
+stripe/gen
+stripe/bin
+stripe/*.log
+example/bin
+example/gen
+example/target
+
